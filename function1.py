@@ -7,5 +7,5 @@ student= [
 # def sort_by_name(student):
 #     return student["name"]
 
-student.sort(key=lambda student: student["age"])
+student.sort(key=lambda student: student["name"])
 print(student)
